@@ -3,7 +3,7 @@ import '../styles/App.css';
 
 const App = () => {
 
-  const  Debug = () => {
+ 
     const [count, setCount] = useState(0);
      return (
       <div className="ball">
@@ -11,7 +11,7 @@ const App = () => {
       <button className='increment-button' onClick={() => { setCount(count + 1) }}>Increment</button>
     </div>
      );
-}
+
 }
 
 export default App;
